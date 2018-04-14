@@ -1,0 +1,51 @@
+<header></header>
+<div class = "assesmentDiv">
+	<div class ="status">
+		<app-student-details></app-student-details>
+	</div>
+
+	<div class="dashboard">
+		<div class = "dashHead">
+			<!-- <app-horizontal-chart *ngIf="horizontalchartData" [data]="horizontalchartData"></app-horizontal-chart> -->
+			<!-- <app-horizontal-chart *ngIf="chartData" [data]="chartData"></app-horizontal-chart> -->
+		</div>
+		<div class = "subjectCharts">
+			<div class= "c1">
+				<mat-card>
+				
+				<mat-card-content>
+    				<app-bar-chart *ngIf="chartData" [data]="chartData"></app-bar-chart>
+    			</mat-card-content>
+	<!-- <mat-card-actions>
+	<button mat-button routerLink= "/attendance" routerLinkActive ="active">Attendance</button>
+	</mat-card-actions> -->
+			</mat-card>
+				
+			</div>
+			 <div class= "c2">
+			 	<mat-card>
+				<mat-card-content>
+    				<app-bar-chart *ngIf="chartData" [data]="chartData"></app-bar-chart>
+    			</mat-card-content>
+    			</mat-card>
+				
+			</div>
+			<div class="c3">
+				<mat-card>
+				<mat-card-content>
+    				<app-bar-chart *ngIf="chartData" [data]="chartData"></app-bar-chart>
+    			</mat-card-content>
+    			</mat-card>
+			</div>			
+			<div class= "c4">
+				<mat-card>
+				<mat-card-content>
+    				<app-bar-chart *ngIf="chartData" [data]="chartData"></app-bar-chart>
+    			</mat-card-content>
+    			</mat-card>
+			</div> 
+		</div>
+
+	</div>
+</div>
+

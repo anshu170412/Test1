@@ -1,0 +1,36 @@
+.backdiv{
+    display: flex;
+    margin: 30px;
+    background-color: #FFD700;
+    height:70%;
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: solid 2px black;
+}
+
+
+
+.cardDiv{
+    display: inline;
+    flex-wrap: wrap;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+    align-items: flex-start;
+    height: 90%;
+    background-color:#FAFDC8; 
+    margin-top: 1%; 
+    margin-right: 5%; 
+    padding-left: 9%;
+    border: solid 1px black;
+    overflow-x: auto;
+}
+
+.cards{
+    display: inline;
+    float: left;    
+    background-color: yellow;    
+    height: 220px;
+    width: 280px;
+    margin-top: 15px;
+}

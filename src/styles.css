@@ -1,0 +1,160 @@
+   @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+/*font-family:Roboto,"Helvetica Neue",sans-serif*/
+html,body{
+  height:100%;
+}
+body{
+  margin:0;
+}
+.imageset{
+	/*background-image: url('orangebg.jpg');*/
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  overflow-x:auto;
+  background-color: #fff;
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+.flex-container {
+  display: flex;
+  
+  overflow-x:auto;
+}
+
+.profile{
+  color: #FFF;
+  width:30em;
+  margin: 0 auto;
+}
+
+.flex-item2 {
+    margin-top: 2em;
+    box-shadow:0 7px 9px -4px rgba(0,0,0,.2),0 14px 21px 2px rgba(0,0,0,.14),0 5px 26px 4px rgba(0,0,0,.12);
+    height: 400px;
+    width: 650px;
+    flex-flow: row;
+    border-top-left-radius:10%;
+    border-top-right-radius:10%;
+    border-bottom-right-radius:10%;    
+    border-bottom-left-radius:10%;
+    /*background-image: url('WhiteBackground.jpg');*/
+    flex-wrap: wrap;
+    color: purple;
+    margin-bottom: 2em;
+    background-color:  #F5FAC8;
+
+    }
+
+.item{	
+	margin-top: 5%;
+	margin-left: 3%;
+	justify-content: flex-end;
+    width:12em;    
+    display:inline-block;
+    /*background-color: blue;*/
+    text-align: center;
+}
+
+.item img{
+width: 90%;
+height: 10%;
+}
+
+.cardDiv{   
+    display: flex;
+  flex-wrap: nowrap;
+  
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;	
+  width:88%;
+  height: auto;
+ 	margin-left: 5%;
+}
+
+.cardDiv::-webkit-scrollbar {
+	margin-top: 1%;
+  display: none;
+}
+
+.cards{
+  margin-top: 10%;
+  margin-left: 3%;
+  justify-content: flex-end;
+  width:12em;    
+  display:inline-block;
+  /*background-color: blue;*/
+  text-align: center;
+  margin-bottom: 1%;
+  transition-property: box-shadow;
+  transition-duration: 400ms;
+}
+
+.cards:hover{
+  box-shadow:0 7px 9px -4px rgba(0,0,0,.2),0 14px 21px 2px rgba(0,0,0,.14),0 5px 26px 4px rgba(0,0,0,.12);
+}
+
+
+
+/*d3 related */
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: orange;
+}
+
+.bar:hover {
+  fill: orangered ;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}

@@ -1,0 +1,17 @@
+article{
+    height:100%;
+}
+
+.headerSection{
+	height: 48px;
+	background-color: green;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+.workSpace{
+	height: 100%;
+}

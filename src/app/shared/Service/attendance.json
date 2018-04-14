@@ -1,0 +1,44 @@
+[
+	{
+		"AttendanceId" : "a001",
+		"StudentId" : "s001",
+		"Status" : "P",
+		"Remarks" : "",
+		"TimeStamp" : "01-01-2018"
+	},
+	{
+		"AttendanceId" : "a002",
+		"StudentId" : "s001",
+		"Status" : "P",
+		"Remarks" : "",
+		"TimeStamp" : "02-01-2018"
+	},
+	{
+		"AttendanceId" : "a003",
+		"StudentId" : "s001",
+		"Status" : "P",
+		"Remarks" : "",
+		"TimeStamp" : "03-01-2018"
+	},
+	{
+		"AttendanceId" : "a004",
+		"StudentId" : "s001",
+		"Status" : "A",
+		"Remarks" : "Sick",
+		"TimeStamp" : "04-01-2018"
+	},
+	{
+		"AttendanceId" : "a005",
+		"StudentId" : "s001",
+		"Status" : "P",
+		"Remarks" : "",
+		"TimeStamp" : "05-01-2018"
+	},
+	{
+		"AttendanceId" : "a006",
+		"StudentId" : "s001",
+		"Status" : "A",
+		"Remarks" : "",
+		"TimeStamp" : "06-01-2018"
+	}
+]

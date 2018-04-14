@@ -1,0 +1,29 @@
+.PersonalinfoDiv{
+    display: block;
+    height: 90%;
+     
+    margin-top: 2%;
+    margin-left: 2%; 
+}
+.studentName{
+	margin-top: 20px;
+    height: 10%;
+    width: 100px;
+    }
+
+    .studentpic{
+    height:150px;
+    width: 150px;
+    margin-top: 5%;
+    background-image: url(../../../assets/images/Roshni.jpg); 
+    background-repeat: no-repeat;   
+    background-size: contain;
+}
+.studentDetails{
+    height: 60%;    
+    color: black;
+    margin-left: 3%;
+}
+.mat-chip-list-stacked .mat-chip-list-wrapper .mat-chip:not(.mat-basic-chip){
+	width: 100px;
+}

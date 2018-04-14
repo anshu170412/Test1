@@ -1,0 +1,26 @@
+.mat-button{
+  width: 20em;
+  font-family:Roboto,"Helvetica Neue",sans-serif;
+  height: 20em;
+  font-size: large;
+}
+.mat-button:hover{
+  border: solid;
+  box-shadow:0 7px 9px -4px rgba(0,0,0,.2),0 14px 21px 2px rgba(0,0,0,.14),0 5px 26px 4px rgba(0,0,0,.12);
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  max-width: 100%;
+ 
+}
+
+.teacherItem, .parentItem{
+	margin-top: 10em;
+	margin-left: 5em;
+	margin-right: 5em;	
+	background-color: #453246;
+	color:#F86254;
+}
